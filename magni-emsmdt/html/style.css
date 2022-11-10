@@ -1,0 +1,315 @@
+body {
+    overflow: hidden;
+    display: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald' !important;
+}
+
+.container {
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    background-color: #ffffff;
+    left: 15%;
+    top: 10%;
+    border-radius: 20px;
+}
+
+.top{
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    background-color: #da6e6c;
+    border: 3px;
+    border-radius: 5px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+#top-text{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 43%;
+    top: -18%;
+}
+
+#patient-searchbutton{
+    position: absolute;
+    background-color: #29c6ff; 
+    color: white;
+    left: 40.5%;
+    top: 17%;
+    width: 20%;
+    height: 8%;
+    text-align: center;
+    border-radius: 2px;
+    border: 0;
+    transition: background-color 0.5s;
+    font-weight: 800;
+}
+
+#patient-searchbutton:hover {
+    outline: none;
+    background-color: #79dafd; 
+}
+
+#patient-searchbutton:active {
+    border: 2px solid #29c6ff;
+}
+
+#patient-searchbutton:focus {
+    outline: none;
+}
+
+#patient-createbutton{
+    position: absolute;
+    background-color: #29c6ff; 
+    color: white;
+    left: 40.5%;
+    top: 17%;
+    width: 20%;
+    height: 8%;
+    text-align: center;
+    border-radius: 2px;
+    border: 0;
+    transition: background-color 0.5s;
+    font-weight: 800;
+}
+
+#patient-createbutton:hover {
+    outline: none;
+    background-color: #79dafd; 
+}
+
+#patient-createbutton:active {
+    border: 2px solid #29c6ff;
+}
+
+#patient-createbutton:focus {
+    outline: none;
+}
+
+#patient-name {
+    position: absolute;
+    left: 34%;
+    top: 30%;
+    width: 35%;
+    height: 7%;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #da6e6c;
+    font-size: 20px;
+}
+
+#patienttext{
+    position: absolute;
+    left: 16%;
+    top: 25%;
+    font-size: 30px;
+    color: #da6e6c; 
+}
+
+#patientdatatext{
+    position: absolute;
+    left: 17%;
+    top: 38%;
+    font-size: 30px;
+    color: #da6e6c; 
+}
+
+#patient-data {
+    position: absolute;
+    left: 34%;
+    top: 44%;
+    width: 35%;
+    height: 42%;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #da6e6c;
+    font-size: 20px;
+}
+
+#patient-submit {
+    position: absolute;
+    background-color: #78f160; 
+    color: white;
+    left: 40.5%;
+    top: 89%;
+    width: 20%;
+    height: 8%;
+    text-align: center;
+    border-radius: 2px;
+    border: 0;
+    transition: background-color 0.5s;
+    font-weight: 800;
+}
+
+#patient-submit:hover {
+    outline: none;
+    background-color: #b4eea8; 
+}
+
+#patient-submit:active {
+    border: 2px solid #78f160;
+}
+
+#patient-submit:focus {
+    outline: none;
+}
+
+#patient-searchs{
+    position: absolute;
+    left: 33%;
+    top: 30%;
+    width: 35%;
+    height: 9%;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #da6e6c;
+    font-size: 20px;
+}
+
+#patientsearchtext{
+    position: absolute;
+    left: 12%;
+    top: 24%;
+    font-size: 35px;
+    color: #da6e6c; 
+}
+
+#searchicon{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    left: 63%;
+    top: 25%;
+}
+
+#searchicon:hover{
+    color: rgb(255, 188, 188)
+}
+
+.patient-info {
+    position: absolute;
+    width: 35%;
+    height: 0%;
+    background-color: #da6e6c;
+    left: 33%;
+    top: 43%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: height 1s;
+    overflow-y: scroll;
+}
+
+.patient-info .header  {
+    position: relative;
+    border-radius: 10px;
+    top: -15%;
+    left: 5%;
+    width: 90%;
+    height: 25%;
+    margin-top: 25%;
+    background-color: rgb(255, 177, 177);
+    
+}
+
+.patient-info .patient-context  {
+    position: relative;
+    border-radius: 10px;
+    top: 5%;
+    margin-top: -12.5%;
+    margin-bottom: 2.5%;
+    left: 5%;
+    width: 90%;
+    height: 55%;
+    background-color: rgb(255, 177, 177);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-weight: 800;
+}
+
+.patient-info .patient-context .context  {
+    padding: 1% 5% 1% 5%;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#patient-fullname {
+    position: absolute;
+    left: 3%;
+    top: 10%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+}
+
+#patient-date {
+    position: absolute;
+    left: 70%;
+    top: -5%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+}
+
+.dot {
+    position: absolute;
+    height: 8%;
+    width: 8%;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    left: 91%;
+    top: 1%;
+}
+
+.close-info {
+    position: absolute;
+    top: 1%;
+    left: 93.5%;
+    font-size: 20px;
+    color: #da6e6c;
+}
+
+#close{
+    position: absolute;
+    font-size: 30px;
+    top: -3%;
+    left: 96%;
+    color: white;
+}
+
+#close:hover{
+    color: rgb(255, 177, 177); 
+}
+
+label, p,div,input,textarea {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-family: 'Oswald';
+    resize: none;
+}
+
+::-webkit-scrollbar
+{
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: rgba(255, 255, 255, 0.705);
+}

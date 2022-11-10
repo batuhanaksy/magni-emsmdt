@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="./script.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,600&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+           <div class="top">
+			<p id="top-text"><i class="fas fa-ambulance"></i>&nbsp;EMS MDT</p>
+		   </div>
+
+		   <button type="search" id="patient-searchbutton"><i class="fas fa-search"></i> SEARCH RECORDS</button>
+		   <button type="create" id="patient-createbutton"><i class="fas fa-plus"></i> CREATE RECORDS</button>
+
+           <div class="patient-create">
+			<p id="patienttext">PATIENT NAME</p>
+            <input type="text" cols="80" rows="10" name="patient-name" id="patient-name">
+			<p id="patientdatatext">PATIENT DATA</p>
+			<textarea id="patient-data" name="patient-data"></textarea>
+			<button type="submit" id="patient-submit"><i class="fas fa-envelope"></i> SUBMIT</button>
+		   </div>
+
+		   <div class="patient-search">
+			<p id="patientsearchtext">PATIENT NAME</p>
+			<input type="text" cols="80" rows="10" name="patient-searchs" id="patient-searchs">
+			<p id="searchicon"><i class="fas fa-search"></i></p>
+			<div class="patient-info">
+				<span class="dot" id="dot1"></span>
+				<span class="close-info">X</span>
+			</div>
+		   </div>
+           <p id="close"><i class="fas fa-times"></i></p>
+		</div>
+	</body>
+</html>
